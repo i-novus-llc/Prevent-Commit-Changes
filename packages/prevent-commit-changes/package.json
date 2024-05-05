@@ -1,0 +1,32 @@
+{
+  "name": "@i-novus/prevent-commit-changes",
+  "version": "0.0.1",
+  "description": "Защита от отправки измененных файлов в git",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "I-Novus LLC",
+    "email": "n2o@i-novus.ru",
+    "url": "https://i-novus.ru/"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "git",
+    "pre commit hook",
+    "cli",
+    "sensitive data"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "type": "module",
+  "bin": "dist/prevent-commit-changes.js",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "minimatch": "^9.0.4"
+  }
+}

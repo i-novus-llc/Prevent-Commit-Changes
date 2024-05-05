@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "license": "Apache-2.0",
+    "type": "module",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "",
+        "postinstall": "license-checker"
+    },
+    "devDependencies": {
+        "@i-novus/license-checker": "^0.0.5"
+    },
+    "engines": {
+        "npm": "please-use-yarn",
+        "node": ">=18"
+    },
+    "packageManager": "yarn@3.6.3"
+}
