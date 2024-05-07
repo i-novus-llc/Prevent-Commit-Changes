@@ -8,6 +8,14 @@
     "email": "n2o@i-novus.ru",
     "url": "https://i-novus.ru/"
   },
+  "homepage": "https://www.npmjs.com/package/@i-novus/prevent-commit-changes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-novus-llc/prevent-commit-changes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/i-novus-llc/prevent-commit-changes/issues"
+  },
   "publishConfig": {
     "access": "public"
   },

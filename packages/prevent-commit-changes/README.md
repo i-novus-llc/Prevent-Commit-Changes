@@ -76,7 +76,7 @@ yarn add --dev lefthook
 pre-commit:
   parallel: true
   commands:
-    filenames-check:
+    file-changes-check:
       skip:
         - merge
         - rebase
